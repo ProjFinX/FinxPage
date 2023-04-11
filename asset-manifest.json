@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FinxPage/static/css/main.6e43d420.css",
-    "main.js": "/FinxPage/static/js/main.1fcb77ae.js",
+    "main.js": "/FinxPage/static/js/main.e031d0b6.js",
     "static/js/603.e06e6518.chunk.js": "/FinxPage/static/js/603.e06e6518.chunk.js",
     "static/js/947.521a3527.chunk.js": "/FinxPage/static/js/947.521a3527.chunk.js",
     "static/js/428.ba9c5651.chunk.js": "/FinxPage/static/js/428.ba9c5651.chunk.js",
@@ -27,7 +27,7 @@
     "static/js/0.efeac7b5.chunk.js": "/FinxPage/static/js/0.efeac7b5.chunk.js",
     "static/js/607.570ea187.chunk.js": "/FinxPage/static/js/607.570ea187.chunk.js",
     "static/js/135.63e0f9a6.chunk.js": "/FinxPage/static/js/135.63e0f9a6.chunk.js",
-    "static/js/919.e8b0d032.chunk.js": "/FinxPage/static/js/919.e8b0d032.chunk.js",
+    "static/js/919.c185e341.chunk.js": "/FinxPage/static/js/919.c185e341.chunk.js",
     "static/media/bootstrap-icons.woff?": "/FinxPage/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/FinXLogo.png": "/FinxPage/static/media/FinXLogo.be5c99b9a6f1ad90d3fe.png",
     "static/media/bootstrap-icons.woff2?": "/FinxPage/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
@@ -38,7 +38,7 @@
     "static/media/bg.svg": "/FinxPage/static/media/bg.f6a660ccf69f82dbea55.svg",
     "index.html": "/FinxPage/index.html",
     "main.6e43d420.css.map": "/FinxPage/static/css/main.6e43d420.css.map",
-    "main.1fcb77ae.js.map": "/FinxPage/static/js/main.1fcb77ae.js.map",
+    "main.e031d0b6.js.map": "/FinxPage/static/js/main.e031d0b6.js.map",
     "603.e06e6518.chunk.js.map": "/FinxPage/static/js/603.e06e6518.chunk.js.map",
     "947.521a3527.chunk.js.map": "/FinxPage/static/js/947.521a3527.chunk.js.map",
     "428.ba9c5651.chunk.js.map": "/FinxPage/static/js/428.ba9c5651.chunk.js.map",
@@ -64,10 +64,10 @@
     "0.efeac7b5.chunk.js.map": "/FinxPage/static/js/0.efeac7b5.chunk.js.map",
     "607.570ea187.chunk.js.map": "/FinxPage/static/js/607.570ea187.chunk.js.map",
     "135.63e0f9a6.chunk.js.map": "/FinxPage/static/js/135.63e0f9a6.chunk.js.map",
-    "919.e8b0d032.chunk.js.map": "/FinxPage/static/js/919.e8b0d032.chunk.js.map"
+    "919.c185e341.chunk.js.map": "/FinxPage/static/js/919.c185e341.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e43d420.css",
-    "static/js/main.1fcb77ae.js"
+    "static/js/main.e031d0b6.js"
   ]
 }
