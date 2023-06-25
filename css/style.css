@@ -13,8 +13,9 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  background: #f6f9ff;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+ 
+    
   color: #444444;
 }
 
@@ -1328,4 +1329,257 @@ h6 {
 
 .nav-small-text {
   font-size: 0.8rem;
+}
+
+/* .side-panel {
+  display: none;
+  width: 300px;
+  position: absolute;
+  height: 100%;
+  flex-shrink: 0;
+  padding: 20px;
+  color: #ffffff;
+  background: #009578;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(300px); 
+        
+} */
+
+
+/* .side-panel-open .side-panel {
+  display: initial;
+  transform: translateX(0); 
+} */
+/* #oneScreenForm {
+  position: relative;
+} */
+
+.side-panel {
+  position: fixed;
+  top: 0;
+  right: -300px; /* Initially hidden outside of the screen */
+  width: 300px;
+  height: 100%;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
+.side-panel.show {
+  right: 0;
+}
+
+.form-container.hide{
+  margin-right: 300px; /* Push the form to the right to make space for the panel */
+  transition: margin-right 0.5s ease-in-out;
+}
+
+.form-container {
+  margin-right: 0px; /* Push the form back to its original position */
+  transition: margin-right 0.5s ease-in-out;
+}
+
+
+/* Side Panel CSS */
+
+
+a.active {
+  border-bottom: 2px solid #55c57a !important;
+}
+
+.nav-link {
+  color: rgb(110, 110, 110);
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: #55c57a;
+}
+
+.nav-pills .nav-link.active {
+  color: black;
+  background-color: white;
+  border-radius: 0.5rem 0.5rem 0 0;
+  font-weight: 600;
+}
+
+/*-----------------------------------
+Timeline View CSS
+------------------------------------*/
+
+.timeline {
+  border-left: 3px solid #727cf5;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  background: rgba(114, 124, 245, 0.09);
+  margin: 0 auto;
+  letter-spacing: 0.2px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+  max-width: 40%;
+}
+
+/* @media (max-width: 767px) {
+  .timeline {
+      max-width: 98%;
+      padding: 25px;
+  }
+} */
+
+.timeline h1 {
+  font-weight: 300;
+  font-size: 1.4em;
+}
+
+.timeline h2,
+.timeline h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.timeline .event {
+  border-bottom: 1px dashed #e8ebf1;
+  /* padding-bottom: 25px;
+  margin-bottom: 25px; */
+  position: relative;
+}
+/* 
+@media (max-width: 767px) {
+  .timeline .event {
+      padding-top: 30px;
+  }
+} */
+
+.timeline .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .event:before {
+  left: -207px;
+  content: attr(data-date);
+  text-align: right;
+  font-weight: 100;
+  font-size: 0.9em;
+  min-width: 120px;
+}
+
+/* @media (max-width: 767px) {
+  .timeline .event:before {
+      left: 0px;
+      text-align: left;
+  }
+} */
+
+.timeline .event:after {
+  -webkit-box-shadow: 0 0 0 3px #727cf5;
+  box-shadow: 0 0 0 3px #727cf5;
+  left: -55.8px;
+  background: #fff;
+  border-radius: 50%;
+  height: 9px;
+  width: 9px;
+  content: "";
+  top: 5px;
+}
+
+/* @media (max-width: 767px) {
+  .timeline .event:after {
+      left: -31.8px;
+  }
+} */
+
+.rtl .timeline {
+  border-left: 0;
+  text-align: right;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  border-right: 3px solid #727cf5;
+}
+
+.rtl .timeline .event::before {
+  left: 0;
+  right: -170px;
+}
+
+.rtl .timeline .event::after {
+  left: 0;
+  right: -55.8px;
+}
+
+
+.timeline-container {
+  width: 300px;
+  overflow-x: auto;
+}
+
+.timeline-container > .timeline {
+  max-width: none;
+}
+
+.timeline-container > * {
+  max-width: 100%;
+}
+
+/*Changing the style to fit in 300px*/
+.timeline {
+  max-width: 98%;
+  padding: 25px;
+}
+
+.timeline .event {
+  padding-top: 30px;
+}
+
+.timeline .event:before {
+  left: 0px;
+  text-align: left;
+}
+
+.timeline .event:after {
+  left: -31.8px;
+}
+.icon-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.glow-border {
+  border: 2px solid #aaa;
+  transition: border-color 0.5s ease-out;
+}
+
+/* .glow-border:focus {
+  outline: none;
+  border-color: #00ff00;
+  box-shadow: 0 0 5px #00ff00;
+  animation: glow 1.5s infinite alternate;
+} */
+
+.mandatory {
+  outline: none;
+  border-color: #ff0000;
+  box-shadow: 0 0 5px #ff0000;
+  animation: glow 1.5s infinite alternate;
 }
