@@ -1591,30 +1591,3 @@ Timeline View CSS
   box-shadow: 0 0 5px #ff0000;
   animation: glow 1.5s infinite alternate;
 }
-
-
-
-
-.pnl-border {
-    border: solid 1px lightgray;
-    padding-top: 10px;
-}
-
-.pnl-border > .hdr-blue {
-    border-bottom: solid 1px lightgray;
-    padding-left: 5px;
-    color: blue;
-}
-
-
-.pnl-border > .hdr-navy {
-    border-bottom: solid 1px lightgray;
-    padding-left: 5px;
-    color: navy;
-}
-
-.pnl-border > .hdr-maroon {
-    border-bottom: solid 1px lightgray;
-    padding-left: 5px;
-    color: maroon;
-}
