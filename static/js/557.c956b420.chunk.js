@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkfinxapp=self.webpackChunkfinxapp||[]).push([[557],{99557:function(n,e,a){a.r(e);a(72791);var i=a(80184);e.default=function(){return(0,i.jsx)(i.Fragment,{children:(0,i.jsx)("div",{className:"container text-center mt-5",children:(0,i.jsx)("div",{className:"display-4",children:"Coming Soon"})})})}}}]);
-//# sourceMappingURL=557.c956b420.chunk.js.map

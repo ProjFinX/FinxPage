@@ -1591,3 +1591,24 @@ Timeline View CSS
   box-shadow: 0 0 5px #ff0000;
   animation: glow 1.5s infinite alternate;
 }
+.hdr-1{
+  border-bottom: solid 1px darkgray;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.pad-top-15{
+  padding-top: 15px;
+}
+
+.pad-left-15{
+  padding-left: 15px;
+}
+
+.pad-right-15{
+  padding-right:15px;
+}
+
+.pad-top-2-5em{
+  padding-top: 2.5em;
+}
