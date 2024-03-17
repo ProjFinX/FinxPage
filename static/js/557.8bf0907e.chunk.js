@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfinxapp=self.webpackChunkfinxapp||[]).push([[557],{99557:(e,n,s)=>{s.r(n),s.d(n,{default:()=>c});s(72791);var a=s(80184);const c=()=>(0,a.jsx)(a.Fragment,{children:(0,a.jsx)("div",{className:"container text-center mt-5",children:(0,a.jsx)("div",{className:"display-4",children:"Coming Soon"})})})}}]);
+//# sourceMappingURL=557.8bf0907e.chunk.js.map
