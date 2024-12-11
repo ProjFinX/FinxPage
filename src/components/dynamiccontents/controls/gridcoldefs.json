@@ -1,0 +1,40 @@
+[
+  { "field": "RowID", "valueGetter": "node.id" },
+  {
+    "field": "Institution",
+    "cellEditor": "grCombobox",
+    "editable": true,
+    "cellEditorParams": { "values": "carMappings" },
+    "valueFormatter": "makeValueFormatter",
+    "valueParser": "makeValueParser",
+    "editor": true
+  },
+  { "field": "LoanRef", "headerName": "Loan No", "editable": true },
+  {
+    "field": "LoanAmount",
+    "editable": true,
+    "cellEditor": "grNumericBox" ,
+    "editor": true
+  },
+  { "field": "EMI", "editable": true, "cellEditor": "grNumericBox" , "editor": true },
+  { "field": "LoanDate", "editable": true, "cellEditor": "grDateBox" , "editor": true},
+  {
+    "field": "LoanDetails",
+    "editable": true,
+    "cellEditor": "agLargeTextCellEditor",
+    "cellEditorPopup": true ,
+    "internal" : true ,
+    "editor": true
+  },
+  { "field": "LoanDocument", "cellEditor": "grFile" , "renderer":true},
+  {
+    "field": "ScheduleDetails",
+    "cellEditor": "grModal",
+    "renderer":true,
+    "cellRendererParams": {
+      "clicked": "clicked"
+    },
+    "renderer":true
+    
+  }
+]

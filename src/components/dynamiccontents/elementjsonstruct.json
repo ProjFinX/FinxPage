@@ -1,0 +1,603 @@
+{
+	"txt_NRCId": {
+		"eid": 1,
+		"ty": 1,
+		"dt": 5,
+		"cap": "NRC ID",
+		"mxLen": 10
+	},
+	"txt_FirstName": {
+		"eid": 2,
+		"ty": 1,
+		"dt": 5,
+		"cap": "First Name",
+		"mxLen": 50
+	},
+	"txt_LastName": {
+		"eid": 3,
+		"ty": 1,
+		"dt": 5,
+		"cap": "Last Name",
+		"mxLen": 50
+	},
+	"cmb_Gender": {
+		"eid": 4,
+		"ty": 3,
+		"dt": 2,
+		"cap": "Gender",
+		"cod": "gnd"
+	},
+	"dtb_DOB": {
+		"eid": 5,
+		"ty": 4,
+		"dt": 7,
+		"cap": "Date of Birth",
+		"mxLen": 10
+	},
+	"ntxt_Age": {
+		"eid": 6,
+		"ty": 2,
+		"dt": 2,
+		"cap": "Age",
+		"rgFr": "18",
+		"rgTo": "99"
+	},
+	"txt_MobileNumber": {
+		"eid": 7,
+		"ty": 1,
+		"dt": 5,
+		"cap": "Mobile Number",
+		"mxLen": 20
+	},
+	"txt_EmailId": {
+		"eid": 8,
+		"ty": 1,
+		"dt": 5,
+		"cap": "Email Id",
+		"mxLen": 100
+	},
+	"mtxt_Address": {
+		"eid": 9,
+		"ty": 12,
+		"dt": 5,
+		"cap": "Address",
+		"mxLen": 250
+	},
+	"txt_City": {
+		"eid": 10,
+		"ty": 1,
+		"dt": 5,
+		"cap": "City",
+		"mxLen": 60
+	},
+	"cmb_Province": {
+		"eid": 11,
+		"ty": 3,
+		"dt": 2,
+		"cap": "Province",
+		"cod": "psm",
+		"con": "CountryId=$#cmb_Country#$",
+		"cstr": "LosDr"
+	},
+	"cmb_District": {
+		"eid": 12,
+		"ty": 3,
+		"dt": 2,
+		"cap": "District",
+		"cod": "dst",
+		"con": "ProvinceStateId=$#cmb_Province#$",
+		"cstr": "LosDr"
+	},
+	"fil_Photo": {
+		"eid": 13,
+		"ty": 9,
+		"dt": 9,
+		"cap": "Photo",
+		"sKb": 1024,
+		"fxt": ".jpg, .jpeg, .png, .gif"
+	},
+	"cmb_EmployerId": {
+		"eid": 14,
+		"ty": 3,
+		"dt": 2,
+		"cap": "Employer",
+		"cod": "emp",
+		"cstr": "LosDr"
+	},
+	"txt_EmployeeNo": {
+		"eid": 15,
+		"ty": 1,
+		"dt": 5,
+		"cap": "Employee No",
+		"mxLen": 6
+	},
+	"cmb_EmployementType": {
+		"eid": 16,
+		"ty": 3,
+		"dt": 2,
+		"cap": "Employement Type",
+		"cod": "empt",
+		"cstr": "LosDr"
+	},
+	"dtb_DateOfJoin": {
+		"eid": 17,
+		"ty": 4,
+		"dt": 7,
+		"cap": "Date of Join",
+		"mxLen": 10
+	},
+	"ntxt_BalanceServPeriod": {
+		"eid": 18,
+		"ty": 2,
+		"dt": 2,
+		"cap": "Balance Service Period",
+		"rgFr": "0",
+		"rgTo": "1000"
+	},
+	"ntxt_GrossIncome": {
+		"eid": 19,
+		"ty": 2,
+		"dt": 3,
+		"cap": "Gross Income",
+		"pid": 27,
+		"mxLen": 10,
+		"rgFr": "0",
+		"rgTo": "99999999.99",
+		"deci": 2
+	},
+	"ntxt_Deduction": {
+		"eid": 20,
+		"ty": 2,
+		"dt": 3,
+		"cap": "Deduction",
+		"pid": 27,
+		"mxLen": 10,
+		"rgFr": "0",
+		"rgTo": "99999999.99",
+		"deci": 2
+	},
+	"ntxt_NetIncome": {
+		"eid": 21,
+		"ty": 2,
+		"dt": 3,
+		"cap": "Net Income",
+		"pid": 27,
+		"mxLen": 10,
+		"rgFr": "0",
+		"rgTo": "99999999.99",
+		"deci": 2
+	},
+	"cmb_Country": {
+		"eid": 22,
+		"ty": 3,
+		"dt": 2,
+		"cap": "Country",
+		"cod": "cun",
+		"cstr": "LosDr"
+	},
+	"fil_IdProof": {
+		"eid": 23,
+		"ty": 9,
+		"dt": 9,
+		"cap": "Id Proof",
+		"sKb": 3500,
+		"fxt": ".jpg, .jpeg, .png, .gif, .pdf"
+	},
+	"fil_AddressProof": {
+		"eid": 24,
+		"ty": 9,
+		"dt": 9,
+		"cap": "Address Proof",
+		"sKb": 3500,
+		"fxt": ".jpg, .jpeg, .png, .gif, .pdf"
+	},
+	"fil_IncomeProof": {
+		"eid": 25,
+		"ty": 9,
+		"dt": 9,
+		"cap": "Income Proof",
+		"sKb": 3500,
+		"fxt": ".jpg, .jpeg, .png, .gif, .pdf"
+	},
+	"fil_EmployerCert": {
+		"eid": 26,
+		"ty": 9,
+		"dt": 9,
+		"cap": "Employer Cert",
+		"sKb": 3500,
+		"fxt": ".jpg, .jpeg, .png, .gif, .pdf"
+	},
+	"pop_IncomeDetail": {
+		"eid": 27,
+		"ty": 14,
+		"dt": 0,
+		"cap": "Income Detail"
+	},
+	"gr_Payslip": {
+		"eid": 28,
+		"ty": 10,
+		"dt": 0,
+		"cap": "Payslip Detail",
+		"pid": 27
+	},
+	"gr_PS_txt_PayComponent": {
+		"eid": 29,
+		"ty": 1,
+		"dt": 5,
+		"cap": "Pay Component",
+		"pid": 28,
+		"mxLen": 20
+	},
+	"gr_PS_txt_Amount": {
+		"eid": 30,
+		"ty": 2,
+		"dt": 3,
+		"cap": "Amount",
+		"pid": 28,
+		"rgFr": "0",
+		"rgTo": "99999999.99",
+		"deci": 2
+	},
+	"gr_ExistingLons": {
+		"eid": 31,
+		"ty": 10,
+		"dt": 0,
+		"cap": "Existing Loan Detail",
+		"ar": true,
+		"cb": true,
+		"mbtn": true,
+		"flt": true,
+		"mngbtns": [{
+			"Method": "grid.deleteRow",
+			"ToolTip": "Delete Account Head",
+			"Icon": "fa fa-close",
+			"CSS": "lbtn",
+			"Style": "color:#ff0000;",
+			"Condition": "IsEditBtn"
+		}],
+		"addbtns": [{
+				"Name": "Receipt",
+				"Method": "BookEntry.receipt()"
+			},
+			{
+				"Name": "Payment",
+				"Method": "BookEntry.payment()"
+			},
+			{
+				"Name": "Journal",
+				"Method": "BookEntry.journal()"
+			},
+			{
+				"Name": "Contra",
+				"Method": "BookEntry.contra()"
+			}
+		]
+	},
+	"gr_EL_txt_Institution": {
+		"eid": 32,
+		"ty": 1,
+		"dt": 5,
+		"cap": "Institution",
+		"pid": 31,
+		"mxLen": 100,
+		"editable": true
+	},
+	"gr_EL_txt_LoanRef": {
+		"eid": 33,
+		"ty": 1,
+		"dt": 5,
+		"cap": "Loan Ref",
+		"pid": 31,
+		"mxLen": 15,
+		"editable": true
+	},
+	"gr_EL_ntxt_LoanAmt": {
+		"eid": 34,
+		"ty": 2,
+		"dt": 3,
+		"cap": "Loan Amount",
+		"pid": 31,
+		"rgFr": "0",
+		"rgTo": "99999999.99",
+		"deci": 2,
+		"cellEditor": "grNumericBox",
+		"editor": true,
+		"editable": true
+	},
+	"gr_EL_ntxt_EMI": {
+		"eid": 35,
+		"ty": 2,
+		"dt": 3,
+		"cap": "EMI",
+		"pid": 31,
+		"rgFr": "0",
+		"rgTo": "99999999.99",
+		"deci": 2,
+		"editor": true,
+		"editable": true
+	},
+	"gr_EL_ntxt_BalanceDue": {
+		"eid": 36,
+		"ty": 2,
+		"dt": 3,
+		"cap": "Balance Due",
+		"pid": 31,
+		"rgFr": "0",
+		"rgTo": "99999999.99",
+		"deci": 2,
+		"editor": true,
+		"editable": true
+	},
+	"txt_CustId": {
+		"eid": 37,
+		"ty": 1,
+		"dt": 5,
+		"cap": "Customer Id",
+		"mxLen": 10
+	},
+	"btn_Test": {
+		"eid": 38,
+		"ty": 13,
+		"dt": 0,
+		"cap": "Test"
+	},
+	"gr_EL_txt_ExLoanId": {
+		"eid": 39,
+		"ty": 1,
+		"dt": 5,
+		"cap": "ExLoanId",
+		"editable": true,
+		"pid": 31,
+		"mxLen": 10,
+		"editor": false
+	},
+	"gr_ExistingLoanSchedule": {
+		"eid": 41,
+		"ty": 10,
+		"dt": 0,
+		"cap": "Existing Loan Schedule",
+		"pid": 31,
+		"ar": true,
+		"cb": true,
+		"mbtn": true,
+		"flt": true,
+		"mngbtns": [{
+			"Method": "grid.deleteRow",
+			"ToolTip": "Delete Account Head",
+			"Icon": "fa fa-close",
+			"CSS": "lbtn",
+			"Style": "color:#ff0000;",
+			"Condition": "IsEditBtn"
+		}],
+		"addbtns": []
+	},
+	"gr_ELS_txt_ELSId": {
+		"eid": 42,
+		"ty": 1,
+		"dt": 5,
+		"cap": "ELSId",
+		"pid": 41,
+		"mxLen": 10
+	},
+	"gr_ELS_txt_ExLoanId": {
+		"eid": 43,
+		"ty": 1,
+		"dt": 5,
+		"cap": "ExLoanId",
+		"pid": 41,
+		"mxLen": 10
+	},
+	"gr_ELS_ntxt_SchNo": {
+		"eid": 44,
+		"ty": 2,
+		"dt": 2,
+		"cap": "Sch No",
+		"pid": 41,
+		"rgFr": "0",
+		"rgTo": "99999999"
+	},
+	"gr_ELS_txt_SchDate": {
+		"eid": 45,
+		"ty": 4,
+		"dt": 7,
+		"cap": "Sch Date",
+		"pid": 41,
+		"mxLen": 10
+	},
+	"gr_ELS_ntxt_SchAmt": {
+		"eid": 46,
+		"ty": 2,
+		"dt": 3,
+		"cap": "Sch Amount",
+		"pid": 41,
+		"rgFr": "0",
+		"rgTo": "99999999.99",
+		"deci": 2
+	},
+	"gr_ELSchComp": {
+		"eid": 51,
+		"ty": 10,
+		"dt": 0,
+		"cap": "Schedule Compo",
+		"pid": 41,
+		"ar": true,
+		"cb": true,
+		"mbtn": true,
+		"flt": true,
+		"mngbtns": [{
+			"Method": "grid.deleteRow",
+			"ToolTip": "Delete Account Head",
+			"Icon": "fa fa-close",
+			"CSS": "lbtn",
+			"Style": "color:#ff0000;",
+			"Condition": "IsEditBtn"
+		}],
+		"addbtns": []
+	},
+	"gr_ELSC_txt_ELSCId": {
+		"eid": 52,
+		"ty": 1,
+		"dt": 5,
+		"cap": "ELSCId",
+		"pid": 51,
+		"mxLen": 10
+	},
+	"gr_ELSC_txt_ELSId": {
+		"eid": 53,
+		"ty": 1,
+		"dt": 5,
+		"cap": "ELSId",
+		"pid": 51,
+		"mxLen": 10
+	},
+	"gr_ELSC_ntxt_CompId": {
+		"eid": 54,
+		"ty": 2,
+		"dt": 2,
+		"cap": "Comp Id",
+		"pid": 51,
+		"rgFr": "0",
+		"rgTo": "99999999"
+	},
+	"gr_ELSC_ntxt_AmAmt": {
+		"eid": 55,
+		"ty": 2,
+		"dt": 3,
+		"cap": "Amount",
+		"pid": 51,
+		"rgFr": "0",
+		"rgTo": "99999999.99",
+		"deci": 2
+	},
+	"gr_ELSC_pop_Breakup": {
+		"eid": 56,
+		"ty": 14,
+		"dt": 0,
+		"cap": "Breakups",
+		"pid": 51
+	},
+	"ntxt_Amt1": {
+		"eid": 57,
+		"ty": 2,
+		"dt": 3,
+		"cap": "Amount 1",
+		"pid": 56,
+		"rgFr": "0",
+		"rgTo": "99999999.99",
+		"deci": 2
+	},
+	"ntxt_Amt2": {
+		"eid": 58,
+		"ty": 2,
+		"dt": 3,
+		"cap": "Amount 2",
+		"pid": 56,
+		"rgFr": "0",
+		"rgTo": "99999999.99",
+		"deci": 2
+	},
+	"ntxt_Amt3": {
+		"eid": 59,
+		"ty": 2,
+		"dt": 3,
+		"cap": "Amount 3",
+		"pid": 56,
+		"rgFr": "0",
+		"rgTo": "99999999.99",
+		"deci": 2
+	},
+	"txt_ELSCBId": {
+		"eid": 60,
+		"ty": 1,
+		"dt": 5,
+		"cap": "ELSCBId",
+		"pid": 56,
+		"mxLen": 10
+	},
+	"btn_UpdCustIncome": {
+		"eid": 61,
+		"ty": 13,
+		"dt": 0,
+		"cap": "Update Income Det"
+	},
+	"btn_TstIfElse": {
+		"eid": 62,
+		"ty": 13,
+		"dt": 0,
+		"cap": "TstIfElse"
+	},
+	"btn_TstGrid": {
+		"eid": 63,
+		"ty": 13,
+		"dt": 0,
+		"cap": "Tst Grid"
+	},
+	"btn_TstGrIF": {
+		"eid": 64,
+		"ty": 13,
+		"dt": 0,
+		"cap": "Grid If"
+	},
+	"btn_TstGrCnt": {
+		"eid": 65,
+		"ty": 13,
+		"dt": 0,
+		"cap": "Grid Count"
+	},
+	"ntxt_Cnt": {
+		"eid": 66,
+		"ty": 2,
+		"dt": 2,
+		"cap": "Count",
+		"rgFr": "0",
+		"rgTo": "999999"
+	},
+	"ntxt_CntCon": {
+		"eid": 67,
+		"ty": 2,
+		"dt": 2,
+		"cap": "Con Count",
+		"rgFr": "0",
+		"rgTo": "999999"
+	},
+	"ntxt_TestVal": {
+		"eid": 68,
+		"ty": 2,
+		"dt": 2,
+		"cap": "Test Value",
+		"rgFr": "0",
+		"rgTo": "999999"
+	},
+	"gr_ELS_ntxt_Cnt": {
+		"eid": 69,
+		"ty": 2,
+		"dt": 2,
+		"cap": "Count",
+		"pid": 41,
+		"rgFr": "0",
+		"rgTo": "999999"
+	},
+	"gr_EL_ntxt_Cnt": {
+		"eid": 70,
+		"ty": 2,
+		"dt": 2,
+		"cap": "Count",
+		"pid": 31,
+		"rgFr": "0",
+		"rgTo": "999999"
+	},
+	"btn_SetELSCBId": {
+		"eid": 71,
+		"ty": 13,
+		"dt": 0,
+		"cap": "Set ELSCBId"
+	},
+	"ntxt_TmpCnt": {
+		"eid": 72,
+		"ty": 2,
+		"dt": 2,
+		"cap": "TmpCount",
+		"rgFr": "0",
+		"rgTo": "999999"
+	}
+}
