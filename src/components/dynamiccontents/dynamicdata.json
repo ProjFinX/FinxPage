@@ -1,0 +1,639 @@
+{
+  "hdr": {
+    "convid": "409295f1-f392-4633-9904-ba17df335c4b",
+    "rst": "SUCCESS",
+    "keyrefid": null
+  },
+  "body": {
+    "qdet": {
+      "qid": 1286,
+      "scrid": 5,
+      "stgid": 13,
+      "scrverid": 768,
+      "stgname": "Product Creation Initiation",
+      "scrname": "Product Creation",
+      "frmload": true
+    },
+    "elms": {
+      "strProductCode": {
+        "eid": 328,
+        "ty": 1,
+        "dt": 5,
+        "cap": "Product Code",
+        "mxLen": 20
+      },
+      "cmbLoanType": {
+        "eid": 329,
+        "ty": 3,
+        "dt": 5,
+        "cap": "Loan Type",
+        "mxLen": 50,
+        "cod": "lty",
+        "cstr": "LosDr"
+      },
+      "numMinTenure": {
+        "eid": 330,
+        "ty": 2,
+        "dt": 2,
+        "cap": "Min Tenure",
+        "mxLen": 999,
+        "rgFr": "1",
+        "rgTo": "999"
+      },
+      "numMaxTenure": {
+        "eid": 331,
+        "ty": 2,
+        "dt": 2,
+        "cap": "Max Tenure",
+        "mxLen": 999,
+        "rgFr": "1",
+        "rgTo": "999"
+      },
+      "numMinROI": {
+        "eid": 332,
+        "ty": 2,
+        "dt": 4,
+        "cap": "Min Rate of Interest",
+        "mxLen": 100,
+        "rgFr": "0",
+        "rgTo": "100"
+      },
+      "numMaxROI": {
+        "eid": 333,
+        "ty": 2,
+        "dt": 4,
+        "cap": "Max Rate of Interest",
+        "mxLen": 100,
+        "rgFr": "0",
+        "rgTo": "100"
+      },
+      "numDROI": {
+        "eid": 334,
+        "ty": 2,
+        "dt": 4,
+        "cap": "Default Rate of Interest",
+        "mxLen": 100,
+        "rgFr": "0",
+        "rgTo": "100"
+      },
+      "cmbAmortizationType": {
+        "eid": 335,
+        "ty": 3,
+        "dt": 5,
+        "cap": "Amortization Type",
+        "mxLen": 100,
+        "cod": "amt",
+        "cstr": "LosDr"
+      },
+      "cmbAccrualMethod": {
+        "eid": 336,
+        "ty": 3,
+        "dt": 5,
+        "cap": "Accrual Method",
+        "mxLen": 50,
+        "cod": "acm",
+        "cstr": "LosDr"
+      },
+      "cmbDisbursementType": {
+        "eid": 337,
+        "ty": 3,
+        "dt": 5,
+        "cap": "Disbursement Type",
+        "mxLen": 50,
+        "cod": "dst",
+        "cstr": "LosDr"
+      },
+      "cmbAccrualType": {
+        "eid": 338,
+        "ty": 3,
+        "dt": 5,
+        "cap": "Accrual Type",
+        "mxLen": 50,
+        "cod": "act",
+        "cstr": "LosDr"
+      },
+      "cmbRePaymentFrequency": {
+        "eid": 339,
+        "ty": 3,
+        "dt": 5,
+        "cap": "Re-Payment Frequency",
+        "mxLen": 50,
+        "cod": "rpf",
+        "cstr": "LosDr"
+      },
+      "cmbPreEMIType": {
+        "eid": 340,
+        "ty": 3,
+        "dt": 5,
+        "cap": "Pre-EMI Type",
+        "mxLen": 50,
+        "cod": "pet",
+        "cstr": "LosDr"
+      },
+      "grdComponentMapping": {
+        "eid": 341,
+        "ty": 10,
+        "dt": 0,
+        "cap": "Component Mapping"
+      },
+      "grdIntComponentMapId": {
+        "eid": 343,
+        "ty": 1,
+        "dt": 5,
+        "cap": "Component Map Id",
+        "pid": 341,
+        "mxLen": 9999999
+      },
+      "grstrComponentName": {
+        "eid": 344,
+        "ty": 1,
+        "dt": 5,
+        "cap": "Component Name",
+        "pid": 341,
+        "mxLen": 100
+      },
+      "grcmbDeductionType": {
+        "eid": 345,
+        "ty": 3,
+        "dt": 5,
+        "cap": "Deduction Type",
+        "pid": 341,
+        "mxLen": 50,
+        "cod": "cdt",
+        "cstr": "LosDr"
+      },
+      "grcmbCalculationType": {
+        "eid": 346,
+        "ty": 3,
+        "dt": 5,
+        "cap": "Calculation Type",
+        "pid": 341,
+        "cod": "cct",
+        "cstr": "LosDr"
+      },
+      "grIntMinValue": {
+        "eid": 347,
+        "ty": 2,
+        "dt": 3,
+        "cap": "Min Value",
+        "pid": 341,
+        "mxLen": 9999999
+      },
+      "grIntMaxValue": {
+        "eid": 348,
+        "ty": 2,
+        "dt": 3,
+        "cap": "Max Value",
+        "pid": 341,
+        "mxLen": 99999,
+        "rgFr": "0",
+        "rgTo": "99999"
+      },
+      "grdIntDefaultValue": {
+        "eid": 349,
+        "ty": 2,
+        "dt": 3,
+        "cap": "Default Value",
+        "pid": 341,
+        "mxLen": 99999,
+        "rgFr": "0",
+        "rgTo": "99999"
+      },
+      "grdcmbAmortizationType": {
+        "eid": 350,
+        "ty": 3,
+        "dt": 5,
+        "cap": "Amortization Type",
+        "pid": 341,
+        "mxLen": 50,
+        "cod": "amt",
+        "cstr": "LosDr"
+      },
+      "grdcmbCalculateFrom": {
+        "eid": 351,
+        "ty": 3,
+        "dt": 5,
+        "cap": "Calculate From",
+        "pid": 341,
+        "mxLen": 50,
+        "cod": "cmt",
+        "cstr": "LosDr"
+      },
+      "grdIntLiqSequence": {
+        "eid": 352,
+        "ty": 2,
+        "dt": 2,
+        "cap": "Liq. Sequence",
+        "pid": 341,
+        "mxLen": 99999,
+        "rgFr": "0",
+        "rgTo": "99999"
+      },
+      "grdblIsActive": {
+        "eid": 353,
+        "ty": 7,
+        "dt": 1,
+        "cap": "Is Active",
+        "pid": 341
+      },
+      "cmbAction": {
+        "eid": 354,
+        "ty": 3,
+        "dt": 5,
+        "cap": "cmbAction",
+        "cod": "sta",
+        "cstr": "LosDr"
+      },
+      "grIntComponentId": {
+        "eid": 355,
+        "ty": 2,
+        "dt": 2,
+        "cap": "Component Id",
+        "pid": 341,
+        "mxLen": 999999999
+      },
+      "cmbSelectProduct": {
+        "eid": 356,
+        "ty": 3,
+        "dt": 5,
+        "cap": "Select Product",
+        "mxLen": 50,
+        "cod": "prd",
+        "cstr": "LosDr"
+      }
+    },
+    "stg": {
+      "elms": {
+        "cmbAction": {},
+        "cmbSelectProduct": {},
+        "strProductCode": {},
+        "cmbLoanType": {},
+        "numMinTenure": {},
+        "cmbRePaymentFrequency": {},
+        "numMaxTenure": {},
+        "numMinROI": {},
+        "cmbAmortizationType": {},
+        "numMaxROI": {},
+        "numDROI": {},
+        "cmbAccrualMethod": {},
+        "grdComponentMapping": {
+          "child": {
+            "grdIntComponentMapId": {},
+            "grdblIsActive": {},
+            "grstrComponentName": {},
+            "grcmbDeductionType": {},
+            "grIntMinValue": {},
+            "grIntMaxValue": {},
+            "grdIntDefaultValue": {},
+            "grcmbCalculationType": {},
+            "grdcmbAmortizationType": {},
+            "grdcmbCalculateFrom": {},
+            "grdIntLiqSequence": {},
+            "grIntComponentId": {}
+          }
+        },
+        "cmbDisbursementType": {},
+        "cmbAccrualType": {},
+        "cmbPreEMIType": {}
+      },
+      "cev": {
+        "cmbSelectProduct": {
+          "ev": {
+            "change": "if(watch(fieldname) !=\\"
+          }
+        }
+      },
+      "sev": {
+        "cmbSelectProduct": {
+          "ev": {
+            "change": "cmbSelectProduct_13_OnChange"
+          }
+        },
+        "Screen": {
+          "ev": {
+            "stagemove": "Screen_13_OnStageMove",
+            "beforesubmit": "Screen_13_OnBeforeSubmit"
+          }
+        }
+      },
+      "prp": {
+        "grdIntComponentMapId": {
+          "col": "col-md-3",
+          "cls": "d-none",
+          "mn": false,
+          "ro": false
+        },
+        "cmbAction": {
+          "col": "col-md-4",
+          "cls": "d-none",
+          "mn": false,
+          "ro": false
+        },
+        "cmbSelectProduct": {
+          "col": "col-md-3",
+          "mn": false,
+          "ro": false
+        },
+        "grdblIsActive": {
+          "col": "col-md-1",
+          "mn": false,
+          "ro": false
+        },
+        "strProductCode": {
+          "col": "col-md-3",
+          "mn": false,
+          "ro": false
+        },
+        "cmbLoanType": {
+          "col": "col-md-3",
+          "mn": true,
+          "ro": false
+        },
+        "numMinTenure": {
+          "col": "col-md-3",
+          "mn": true,
+          "ro": false
+        },
+        "grstrComponentName": {
+          "col": "col-md-3",
+          "mn": false,
+          "ro": true
+        },
+        "grcmbDeductionType": {
+          "col": "col-md-3",
+          "mn": false,
+          "ro": false
+        },
+        "cmbRePaymentFrequency": {
+          "col": "col-md-3",
+          "mn": true,
+          "ro": false
+        },
+        "numMaxTenure": {
+          "col": "col-md-3",
+          "mn": true,
+          "ro": false
+        },
+        "numMinROI": {
+          "col": "col-md-3",
+          "mn": true,
+          "ro": false
+        },
+        "grIntMinValue": {
+          "col": "col-md-3",
+          "mn": false,
+          "ro": false
+        },
+        "grIntMaxValue": {
+          "col": "col-md-3",
+          "mn": false,
+          "ro": false
+        },
+        "cmbAmortizationType": {
+          "col": "col-md-3",
+          "mn": true,
+          "ro": false
+        },
+        "numMaxROI": {
+          "col": "col-md-3",
+          "mn": true,
+          "ro": false
+        },
+        "numDROI": {
+          "col": "col-md-3",
+          "mn": true,
+          "ro": false
+        },
+        "cmbAccrualMethod": {
+          "col": "col-md-3",
+          "mn": true,
+          "ro": false
+        },
+        "grdIntDefaultValue": {
+          "col": "col-md-3",
+          "mn": false,
+          "ro": false
+        },
+        "grcmbCalculationType": {
+          "col": "col-md-3",
+          "mn": false,
+          "ro": false
+        },
+        "grdComponentMapping": {
+          "col": "col-md-3",
+          "mn": false,
+          "ro": false,
+          "ar": false,
+          "cb": false,
+          "mbtn": false,
+          "flt": false,
+          "mngbtns": []
+        },
+        "cmbDisbursementType": {
+          "col": "col-md-3",
+          "mn": true,
+          "ro": false
+        },
+        "grdcmbAmortizationType": {
+          "col": "col-md-3",
+          "mn": false,
+          "ro": false
+        },
+        "grdcmbCalculateFrom": {
+          "col": "col-md-3",
+          "mn": false,
+          "ro": false
+        },
+        "cmbAccrualType": {
+          "col": "col-md-3",
+          "mn": true,
+          "ro": false
+        },
+        "grdIntLiqSequence": {
+          "col": "col-md-3",
+          "mn": false,
+          "ro": false
+        },
+        "cmbPreEMIType": {
+          "col": "col-md-3",
+          "mn": true,
+          "ro": false
+        },
+        "grIntComponentId": {
+          "col": "col-md-4",
+          "cls": "d-none",
+          "mn": false,
+          "ro": false
+        }
+      },
+      "ui": [
+        {
+          "type": "div",
+          "id": "divrow",
+          "cls": "row",
+          "children": [
+            {
+              "type": "div",
+              "id": "divcol",
+              "cls": "col-lg-12",
+              "children": [
+                {
+                  "type": "div",
+                  "id": "divcard",
+                  "cls": "card",
+                  "children": [
+                    {
+                      "type": "h",
+                      "id": "divcard",
+                      "cls": "card-header mb-3",
+                      "tag": "h5",
+                      "value": "Product Details"
+                    },
+                    {
+                      "type": "div",
+                      "id": "div1",
+                      "cls": "card-body row",
+                      "children": [
+                        {
+                          "type": "tab",
+                          "id": "tab1",
+                          "tabs": [
+                            {
+                              "headerid": "th1",
+                              "headername": "Product Details Tab",
+                              "tbcid" : "tbc1",
+                              "cls": "active"
+                            },
+                            {
+                              "headerid": "th2",
+                              "headername": "Component Details",
+                              "tbcid" : "tbc2"
+                              
+                            }
+                          ],
+                          "tabcontent" : [
+                            {
+                            "tbcid": "tbc1",
+                            "cls" : "active show",
+                            "headerid": "th1",
+                            "chld" : [
+                              {
+                                "type": "input",
+                                "id": "cmbAction"
+                              },
+                              {
+                                "type": "input",
+                                "id": "cmbSelectProduct"
+                              },
+                              {
+                                "type": "input",
+                                "id": "strProductCode"
+                              },
+                              {
+                                "type": "input",
+                                "id": "cmbLoanType"
+                              },
+                              {
+                                "type": "input",
+                                "id": "numMinTenure"
+                              },
+                              {
+                                "type": "input",
+                                "id": "cmbRePaymentFrequency"
+                              },
+                              {
+                                "type": "input",
+                                "id": "numMinROI"
+                              },
+                              {
+                                "type": "input",
+                                "id": "cmbAmortizationType"
+                              },
+                              {
+                                "type": "input",
+                                "id": "numMaxROI"
+                              },
+                              {
+                                "type": "input",
+                                "id": "numDROI"
+                              },
+                              {
+                                "type": "input",
+                                "id": "cmbAccrualMethod"
+                              },
+                              {
+                                "type": "input",
+                                "id": "cmbDisbursementType"
+                              },
+                              {
+                                "type": "input",
+                                "id": "cmbAccrualType"
+                              },
+                              {
+                                "type": "input",
+                                "id": "cmbPreEMIType"
+                              }
+                            ]
+
+                          }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "id": "div2",
+          "cls": "row",
+          "children": [
+            {
+              "type": "div",
+              "id": "divcol",
+              "cls": "col-lg-12",
+              "children": [
+                {
+                  "type": "div",
+                  "id": "divcard",
+                  "cls": "card",
+                  "children": [
+                    {
+                      "type": "h",
+                      "id": "divcard",
+                      "cls": "card-header mb-3",
+                      "tag": "h5",
+                      "value": "Component Details",
+                      "children": [
+                        {
+                          "type": "div",
+                          "id": "div1",
+                          "cls": "card-body row",
+                          "children": [
+                            {
+                              "type": "input",
+                              "id": "grdComponentMapping"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "fdr": [
+    {
+      "rstcode": 0,
+      "rstmsg": "Successfully completed"
+    }
+  ]
+}

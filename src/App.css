@@ -1,0 +1,56 @@
+.bg_one {
+
+	background: url(./assets/imgs/bg.svg) transparent;
+	background-size: auto 100%;
+
+}
+
+.finx_logo {
+	display: block;
+	height: 150px;
+	width: 100%;
+	margin-bottom: 20px;
+	background: url(./assets/imgs/FinX_lg.svg) no-repeat transparent;
+	background-size: auto 100%;
+}
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  }
+  
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  }
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  }
+
+  .spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031; /* High z-index so it is on top of the page */
+  top: 50%;
+  left: 50%; /* or: left: 50%; */
+  margin-top: 100 px; /* half of the elements height */
+  margin-right: 100 px; /* half of the elements width */
+}
+
+.sidebar li .submenu{ 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+	padding-left: 1rem; 
+	padding-right: 1rem;
+}

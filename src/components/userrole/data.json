@@ -1,0 +1,137 @@
+[
+    {
+      "children": [
+        {
+          "value": "AEAUHA",
+          "label": "ABU DHABI"
+        },
+        {
+          "value": "AEDXBA",
+          "label": "DUBAI"
+        },
+        {
+          "value": "AEDXBB",
+          "label": "DUBAI RASID SEA-PORT"
+        },
+        {
+          "value": "AEDXBD",
+          "label": "DUBAI TRANSIT / HUB"
+        },
+        {
+          "value": "AEDXBE",
+          "label": "DUBAI - SOMALIA"
+        },
+        {
+          "value": "AUSYDK",
+          "label": "SYDNEY K (EMIRATES - DIRECT LINK)"
+        },
+        {
+          "value": "GBLONO",
+          "label": "LONDON"
+        },
+        {
+          "value": "SGSINO",
+          "label": "SINGAPORE"
+        },
+        {
+          "value": "SGSINQ",
+          "label": "SINGAPORE Q, UAE"
+        },
+        {
+          "value": "USCHIE",
+          "label": "CHICAGO E"
+        },
+        {
+          "value": "USJECU",
+          "label": "NEW JERSEY U EMIRATES POST"
+        }
+      ],
+      "value": "J1CAEA",
+      "shortvalue": "AEA",
+      "label": "EmiratesPost"
+    },
+    {
+      "children": [
+        {
+          "value": "AFKBLA",
+          "label": "KABUL"
+        },
+        {
+          "value": "AFKBLC",
+          "label": "KABUL C"
+        },
+        {
+          "value": "AFKBLS",
+          "label": "KABUL EMS SHAHEEN POST"
+        }
+      ],
+      "value": "J1CAFA",
+      "shortvalue": "AFA",
+      "label": "Afghan Post"
+    },
+    {
+      "children": [
+        {
+          "value": "AGANUA",
+          "label": "ST JOHNS, A, ANTIGUA AND BARBUDA"
+        },
+        {
+          "value": "AGANUB",
+          "label": "ST JOHNS, B, ANTIGUA AND BARBUDA"
+        },
+        {
+          "value": "AGANUC",
+          "label": "ST JOHNS, C, ANTIGUA AND BARBUDA"
+        }
+      ],
+      "value": "J1CAGA",
+      "shortvalue": "AGA",
+      "label": "GPO Antigua"
+    },
+    {
+      "children": [],
+      "value": "J1CAIA",
+      "shortvalue": "AIA",
+      "label": "AnguillaPost"
+    },
+    {
+      "children": [
+        {
+          "value": "ALTIAA",
+          "label": "TIRANA ENTRANGER"
+        }
+      ],
+      "value": "J1CALA",
+      "shortvalue": "ALA",
+      "label": "Albanian PT"
+    },
+    {
+      "children": [
+        {
+          "value": "AMEVNA",
+          "label": "YEREVAN"
+        },
+        {
+          "value": "AMEVNB",
+          "label": "YEREVAN PI-2"
+        },
+        {
+          "value": "AMEVNC",
+          "label": "YEREVAN PI-3"
+        },
+        {
+          "value": "AMEVND",
+          "label": "YEREVAN EMS"
+        }
+      ],
+      "value": "J1CAMA",
+      "shortvalue": "AMA",
+      "label": "Haypost AM"
+    },
+    {
+      "children": [],
+      "value": "J1CANA",
+      "shortvalue": "ANA",
+      "label": "POST NA NV"
+    }
+  ]
