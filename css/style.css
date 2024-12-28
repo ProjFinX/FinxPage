@@ -1634,6 +1634,10 @@ Timeline View CSS
   padding-bottom: 0.5em;
 }
 
+.pad-left-2em {
+  padding-left: 2em;
+}
+
 .mar-top-2em {
   margin-top: 2em;
 }
@@ -1720,9 +1724,17 @@ li>div>div {
   text-decoration: none !important;
 }
 
+.btn-bg:hover {
+  background: rgb(162, 162, 162) !important;
+}
 /* .btn:hover {
   border-inline:solid 1px #4154f1 !important
 } */
+ 
+legend {
+  font-size: 12pt !important;
+  margin-bottom:0 !important;
+}
 
 .clr-gray {
   color: gray;
@@ -1800,7 +1812,7 @@ input[type="checkbox"] {
   background-size: 300% 100%;
 
   border-radius: 50px;
-  moz-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
@@ -1808,7 +1820,7 @@ input[type="checkbox"] {
 
 .btn-hover:hover {
   background-position: 100% 0;
-  moz-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
@@ -2132,3 +2144,10 @@ input[type='number']::-webkit-outer-spin-button {
   margin: 0;
 }
 
+label .hl {
+  font-weight: bold;
+}
+
+.ledger-row:hover{
+  background-color: #c0f5e8;
+}
