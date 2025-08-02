@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/FinxPage/static/css/main.d2b4cee4.css",
-    "main.js": "/FinxPage/static/js/main.0bb4a8fd.js",
+    "main.js": "/FinxPage/static/js/main.f5e07d33.js",
     "static/js/970.e050b4e8.chunk.js": "/FinxPage/static/js/970.e050b4e8.chunk.js",
     "static/js/3043.323100d7.chunk.js": "/FinxPage/static/js/3043.323100d7.chunk.js",
     "static/js/8548.22859e10.chunk.js": "/FinxPage/static/js/8548.22859e10.chunk.js",
     "static/js/7637.1d1ea6f6.chunk.js": "/FinxPage/static/js/7637.1d1ea6f6.chunk.js",
-    "static/js/3242.5e7d85c1.chunk.js": "/FinxPage/static/js/3242.5e7d85c1.chunk.js",
+    "static/js/3242.5f50f0b6.chunk.js": "/FinxPage/static/js/3242.5f50f0b6.chunk.js",
     "static/js/3855.93199032.chunk.js": "/FinxPage/static/js/3855.93199032.chunk.js",
     "static/css/6370.4de02dc0.chunk.css": "/FinxPage/static/css/6370.4de02dc0.chunk.css",
-    "static/js/6370.ad5bc407.chunk.js": "/FinxPage/static/js/6370.ad5bc407.chunk.js",
+    "static/js/6370.dfb780ac.chunk.js": "/FinxPage/static/js/6370.dfb780ac.chunk.js",
     "static/css/6675.4de02dc0.chunk.css": "/FinxPage/static/css/6675.4de02dc0.chunk.css",
-    "static/js/6675.37e0a9f4.chunk.js": "/FinxPage/static/js/6675.37e0a9f4.chunk.js",
+    "static/js/6675.f47c0dc3.chunk.js": "/FinxPage/static/js/6675.f47c0dc3.chunk.js",
     "static/css/735.4de02dc0.chunk.css": "/FinxPage/static/css/735.4de02dc0.chunk.css",
     "static/js/735.ce1c5a97.chunk.js": "/FinxPage/static/js/735.ce1c5a97.chunk.js",
     "static/css/9794.4de02dc0.chunk.css": "/FinxPage/static/css/9794.4de02dc0.chunk.css",
     "static/js/9794.f2dcebab.chunk.js": "/FinxPage/static/js/9794.f2dcebab.chunk.js",
-    "static/js/260.15554aea.chunk.js": "/FinxPage/static/js/260.15554aea.chunk.js",
+    "static/js/260.56be3fb9.chunk.js": "/FinxPage/static/js/260.56be3fb9.chunk.js",
     "static/js/4099.6dd0a480.chunk.js": "/FinxPage/static/js/4099.6dd0a480.chunk.js",
     "static/js/479.6a47ae29.chunk.js": "/FinxPage/static/js/479.6a47ae29.chunk.js",
-    "static/js/6474.dd05cb50.chunk.js": "/FinxPage/static/js/6474.dd05cb50.chunk.js",
+    "static/js/6474.734c662a.chunk.js": "/FinxPage/static/js/6474.734c662a.chunk.js",
     "static/js/5524.56d66364.chunk.js": "/FinxPage/static/js/5524.56d66364.chunk.js",
     "static/js/2214.31a726f7.chunk.js": "/FinxPage/static/js/2214.31a726f7.chunk.js",
-    "static/js/1133.7d37daa7.chunk.js": "/FinxPage/static/js/1133.7d37daa7.chunk.js",
+    "static/js/1133.e7c71406.chunk.js": "/FinxPage/static/js/1133.e7c71406.chunk.js",
     "static/js/6073.429c6396.chunk.js": "/FinxPage/static/js/6073.429c6396.chunk.js",
     "static/js/2928.02e03629.chunk.js": "/FinxPage/static/js/2928.02e03629.chunk.js",
     "static/js/4364.0a683113.chunk.js": "/FinxPage/static/js/4364.0a683113.chunk.js",
@@ -75,6 +75,6 @@
   },
   "entrypoints": [
     "static/css/main.d2b4cee4.css",
-    "static/js/main.0bb4a8fd.js"
+    "static/js/main.f5e07d33.js"
   ]
 }
