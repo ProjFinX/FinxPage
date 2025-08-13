@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/FinxPage/static/css/main.d2b4cee4.css",
-    "main.js": "/FinxPage/static/js/main.da46540a.js",
-    "static/js/970.19bd64aa.chunk.js": "/FinxPage/static/js/970.19bd64aa.chunk.js",
+    "main.js": "/FinxPage/static/js/main.c8ba1e76.js",
+    "static/js/970.578ea4bf.chunk.js": "/FinxPage/static/js/970.578ea4bf.chunk.js",
     "static/js/3043.323100d7.chunk.js": "/FinxPage/static/js/3043.323100d7.chunk.js",
     "static/js/8548.22859e10.chunk.js": "/FinxPage/static/js/8548.22859e10.chunk.js",
     "static/js/7637.1d1ea6f6.chunk.js": "/FinxPage/static/js/7637.1d1ea6f6.chunk.js",
@@ -75,6 +75,6 @@
   },
   "entrypoints": [
     "static/css/main.d2b4cee4.css",
-    "static/js/main.da46540a.js"
+    "static/js/main.c8ba1e76.js"
   ]
 }
