@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/FinxPage/static/css/main.d2b4cee4.css",
-    "main.js": "/FinxPage/static/js/main.5b12ca85.js",
-    "static/js/970.6e9bf628.chunk.js": "/FinxPage/static/js/970.6e9bf628.chunk.js",
+    "main.js": "/FinxPage/static/js/main.7885ead2.js",
+    "static/js/970.6aee05c9.chunk.js": "/FinxPage/static/js/970.6aee05c9.chunk.js",
     "static/js/3043.34087b0c.chunk.js": "/FinxPage/static/js/3043.34087b0c.chunk.js",
     "static/js/8548.f10b851a.chunk.js": "/FinxPage/static/js/8548.f10b851a.chunk.js",
     "static/js/7637.21e0cff0.chunk.js": "/FinxPage/static/js/7637.21e0cff0.chunk.js",
@@ -38,8 +38,8 @@
     "static/js/3079.c03f80bf.chunk.js": "/FinxPage/static/js/3079.c03f80bf.chunk.js",
     "static/js/980.7c06eada.chunk.js": "/FinxPage/static/js/980.7c06eada.chunk.js",
     "static/js/3574.cbc4d97d.chunk.js": "/FinxPage/static/js/3574.cbc4d97d.chunk.js",
-    "static/js/275.ee212690.chunk.js": "/FinxPage/static/js/275.ee212690.chunk.js",
-    "static/js/4746.f742292f.chunk.js": "/FinxPage/static/js/4746.f742292f.chunk.js",
+    "static/js/275.22faea49.chunk.js": "/FinxPage/static/js/275.22faea49.chunk.js",
+    "static/js/4746.c45c06b2.chunk.js": "/FinxPage/static/js/4746.c45c06b2.chunk.js",
     "static/js/3494.9922caee.chunk.js": "/FinxPage/static/js/3494.9922caee.chunk.js",
     "static/js/1822.d4383c4e.chunk.js": "/FinxPage/static/js/1822.d4383c4e.chunk.js",
     "static/js/7715.df18f3e8.chunk.js": "/FinxPage/static/js/7715.df18f3e8.chunk.js",
@@ -58,6 +58,7 @@
     "static/js/9663.fa9e0916.chunk.js": "/FinxPage/static/js/9663.fa9e0916.chunk.js",
     "static/js/8514.f9c34808.chunk.js": "/FinxPage/static/js/8514.f9c34808.chunk.js",
     "static/js/2412.6baef2b3.chunk.js": "/FinxPage/static/js/2412.6baef2b3.chunk.js",
+    "static/css/1263.96040c98.chunk.css": "/FinxPage/static/css/1263.96040c98.chunk.css",
     "static/js/7797.0a3738ff.chunk.js": "/FinxPage/static/js/7797.0a3738ff.chunk.js",
     "static/js/2720.15709c4f.chunk.js": "/FinxPage/static/js/2720.15709c4f.chunk.js",
     "static/js/3014.9b1e38b2.chunk.js": "/FinxPage/static/js/3014.9b1e38b2.chunk.js",
@@ -76,6 +77,6 @@
   },
   "entrypoints": [
     "static/css/main.d2b4cee4.css",
-    "static/js/main.5b12ca85.js"
+    "static/js/main.7885ead2.js"
   ]
 }
