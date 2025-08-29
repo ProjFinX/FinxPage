@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FinxPage/static/css/main.d2b4cee4.css",
-    "main.js": "/FinxPage/static/js/main.7885ead2.js",
+    "main.js": "/FinxPage/static/js/main.fb978897.js",
     "static/js/970.6aee05c9.chunk.js": "/FinxPage/static/js/970.6aee05c9.chunk.js",
     "static/js/3043.34087b0c.chunk.js": "/FinxPage/static/js/3043.34087b0c.chunk.js",
     "static/js/8548.f10b851a.chunk.js": "/FinxPage/static/js/8548.f10b851a.chunk.js",
@@ -38,8 +38,8 @@
     "static/js/3079.c03f80bf.chunk.js": "/FinxPage/static/js/3079.c03f80bf.chunk.js",
     "static/js/980.7c06eada.chunk.js": "/FinxPage/static/js/980.7c06eada.chunk.js",
     "static/js/3574.cbc4d97d.chunk.js": "/FinxPage/static/js/3574.cbc4d97d.chunk.js",
-    "static/js/275.22faea49.chunk.js": "/FinxPage/static/js/275.22faea49.chunk.js",
-    "static/js/4746.c45c06b2.chunk.js": "/FinxPage/static/js/4746.c45c06b2.chunk.js",
+    "static/js/275.ebcd3229.chunk.js": "/FinxPage/static/js/275.ebcd3229.chunk.js",
+    "static/js/4746.235bf340.chunk.js": "/FinxPage/static/js/4746.235bf340.chunk.js",
     "static/js/3494.9922caee.chunk.js": "/FinxPage/static/js/3494.9922caee.chunk.js",
     "static/js/1822.d4383c4e.chunk.js": "/FinxPage/static/js/1822.d4383c4e.chunk.js",
     "static/js/7715.df18f3e8.chunk.js": "/FinxPage/static/js/7715.df18f3e8.chunk.js",
@@ -77,6 +77,6 @@
   },
   "entrypoints": [
     "static/css/main.d2b4cee4.css",
-    "static/js/main.7885ead2.js"
+    "static/js/main.fb978897.js"
   ]
 }
