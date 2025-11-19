@@ -395,7 +395,7 @@ h6 {
 }
 
 .logo img {
-  max-height: 60px;
+  max-height: 50px;
   margin-right: 6px;
 }
 
@@ -709,7 +709,7 @@ h6 {
   margin: 10px 0 5px 15px;
 }
 
-.sidebar-nav .nav-link {
+/* .sidebar-nav .nav-link {
   display: flex;
   align-items: center;
   font-size: 15px;
@@ -725,8 +725,8 @@ h6 {
   font-size: 16px;
   margin-right: 10px;
   color: #4154f1;
-}
-
+} */
+/* 
 .sidebar-nav .nav-link.collapsed {
   color: #012970;
   background: #fff;
@@ -785,7 +785,7 @@ h6 {
 
 .sidebar-nav .nav-content a.active i {
   background-color: #4154f1;
-}
+} */
 
 /*--------------------------------------------------------------
 # Dashboard
@@ -1405,13 +1405,13 @@ a.active {
   border-bottom: 2px solid #55c57a !important;
 }
 
-.nav-link {
+/* .nav-link {
   color: rgb(110, 110, 110);
   font-weight: 500;
-}
+} */
 
 .nav-link:hover {
-  color: #55c57a;
+  color: #869dda;
 }
 
 .nav-pills .nav-link.active {
