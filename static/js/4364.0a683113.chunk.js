@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfinxapp=self.webpackChunkfinxapp||[]).push([[4364],{74364:(e,n,s)=>{s.r(n),s.d(n,{default:()=>c});s(9950);var a=s(44414);const c=()=>(0,a.jsx)(a.Fragment,{children:(0,a.jsx)("div",{className:"container text-center mt-5",children:(0,a.jsx)("div",{className:"display-4",children:"Coming Soon"})})})}}]);
