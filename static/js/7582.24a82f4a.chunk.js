@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfinxapp=self.webpackChunkfinxapp||[]).push([[7582],{38871:(e,r,a)=>{a.r(r),a.d(r,{default:()=>c});a(9950);var n=a(71708),t=a(44414);const c=function(){return(0,t.jsx)(n.A,{pageTitle:"Receipt Entry",voucherTypeId:1,mainLedgerSource:"cashbank",detailLedgerSource:"other",fixedMainDrCr:"D",enableDrCrSwitch:!1})}}}]);

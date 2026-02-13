@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfinxapp=self.webpackChunkfinxapp||[]).push([[7792],{47405:(e,r,a)=>{a.r(r),a.d(r,{default:()=>c});a(9950);var n=a(71708),t=a(44414);const c=function(){return(0,t.jsx)(n.A,{pageTitle:"Payment Entry",voucherTypeId:2,mainLedgerSource:"cashbank",detailLedgerSource:"other",fixedMainDrCr:"C",enableDrCrSwitch:!1})}}}]);

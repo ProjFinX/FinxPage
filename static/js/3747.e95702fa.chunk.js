@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfinxapp=self.webpackChunkfinxapp||[]).push([[3747],{93368:(e,r,n)=>{n.r(r),n.d(r,{default:()=>u});n(9950);var t=n(71708),a=n(44414);const u=function(){return(0,a.jsx)(t.A,{pageTitle:"Journal Entry",voucherTypeId:3,mainLedgerSource:"other",detailLedgerSource:"other",enableDrCrSwitch:!0})}}}]);

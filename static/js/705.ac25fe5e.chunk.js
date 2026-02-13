@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfinxapp=self.webpackChunkfinxapp||[]).push([[705],{70658:(e,a,n)=>{n.r(a),n.d(a,{default:()=>t});n(9950);var r=n(71708),c=n(44414);const t=function(){return(0,c.jsx)(r.A,{pageTitle:"Contra Entry",voucherTypeId:4,mainLedgerSource:"cashbank",detailLedgerSource:"cashbank",enableDrCrSwitch:!0})}}}]);
